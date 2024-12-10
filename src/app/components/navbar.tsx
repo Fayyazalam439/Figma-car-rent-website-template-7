@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'next/link';
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import Image from 'next/image';
-import { CiSearch } from "react-icons/ci";
 
 const Jakarta = Plus_Jakarta_Sans({subsets:['latin']})
 const navbar = () => {
