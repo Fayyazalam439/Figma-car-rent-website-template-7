@@ -1,101 +1,315 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className='bg-[#F6F7F9]'>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <div className='w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center pt-10'>
+      <Image src={'/Ads1.png'} alt='' width={640} height={360} className="max-w-full"/>
+      <Image src={'/Ads2.png'} alt='' width={640} height={360} className="max-w-full"/>
+      </div>
+
+      <div className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8 pt-7">
+        <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="max-w-full pl-6" />
+        <Image src={"/Switch.png"} alt="" width={150} height={150} className="max-w-full" />
+        <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className="max-w-full pr-6" />
+      </div>
+
+      <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
+        <div className='flex justify-between '>
+          <div>
+            <h1 className='text-[#90A3BF] text-lg sm:text-xm font-bold pl-5'>Popular Car</h1>
+          </div>
+
+          <div>
+            <h1 className='text-[#3563E9] text-lg sm:text-xm font-bold pr-5'>View All</h1>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-5">
+
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Koenigsegg <Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>Sport</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car.png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/Spesification.png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$99.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Nissan GT - R <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>Sport</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (1).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$80.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Rolls - Royce <Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>Sport</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (2).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/Spesification (2).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$96.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Nissan GT - R <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>Sport</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (3).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$80.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+                {/* New Section */}
+          <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
+
+        <div className='flex justify-between '>
+          <div>
+            <h1 className='text-[#90A3BF] text-lg sm:text-xm font-bold pl-5'>Recomendation Car</h1>
+          </div>
+        </div>
+
+        <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-5">
+
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            All New Rush <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (4).png"} alt="" width={232} height={72} className='pt-3'/>
+            <Image src={"/Spesification (4).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$99.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            CR  - V<Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (5).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/Spesification (5).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$96.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            All New Terios <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (6).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/Spesification (6).png"} alt="" width={256} height={24} className='pt-10'/>
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-3">
+            <p className='text-[20px] font-bold'>$80.00/ <span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Nissan GT - R <Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (3).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$80.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          </div>
+          
+          {/* 3rd section */}
+          </section>
+
+          <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
+
+        <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            All New Rush <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (7).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/Spesification (7).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$79.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            CR  - V<Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (8).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/Spesification (8).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$98.00/ <span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            All New Terios <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (9).png"} alt="" width={232} height={72} className='pt-9'/>
+            <Image src={"/Spesification (9).png"} alt="" width={256} height={24} className='pt-10'/>
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-3">
+            <p className='text-[20px] font-bold'>$100.00/ <span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+
+          
+          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[350px] mx-auto rounded-md p-5'>
+            <div>
+            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
+            Nissan GT - R <Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
+            </h1>
+            <p className='text-[#90A3BF]'>SUV</p>
+            </div>
+
+          <div className='w-full flex flex-col items-center justify-center gap-4'>
+            <Image src={"/car (10).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/Spesification (10).png"} alt="" width={256} height={24} className='pt-10' />
+          </div>
+
+          <div className="w-full flex items-center justify-between pt-5">
+            <p className='text-[20px] font-bold'>$95.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
+            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
+          </div>
+
+          </div>
+          </div>
+     </section>
+
+      <section className="w-full text-center">
+      
+          <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5 ">
+            Show More Car
+          </button>
+          <br /><br /><br/>
+        
+      </section>
+
     </div>
   );
 }
