@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8 pt-7">
         <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="max-w-full pl-6" />
-        <Image src={"/Switch.png"} alt="" width={150} height={150} className="max-w-full" />
+        <Image src={"/Switch.png"} alt="" width={100} height={100} className="max-w-full" />
         <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className="max-w-full pr-6" />
       </div>
 
