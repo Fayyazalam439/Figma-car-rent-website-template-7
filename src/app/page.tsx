@@ -37,7 +37,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car.png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/car.png"} alt="" width={220} height={68} className='pt-12'/>
             <Image src={"/Spesification.png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (1).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/car (1).png"} alt="" width={220} height={68} className='pt-12'/>
             <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (2).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/car (2).png"} alt="" width={220} height={68} className='pt-12'/>
             <Image src={"/Spesification (2).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (3).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/car (3).png"} alt="" width={220} height={68} className='pt-12'/>
             <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -133,7 +133,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (4).png"} alt="" width={232} height={72} className='pt-3'/>
+            <Image src={"/car (4).png"} alt="" width={220} height={68} className='pt-3'/>
             <Image src={"/Spesification (4).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (5).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/car (5).png"} alt="" width={220} height={68} className='pt-6'/>
             <Image src={"/Spesification (5).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -175,7 +175,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (6).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/car (6).png"} alt="" width={220} height={68} className='pt-6'/>
             <Image src={"/Spesification (6).png"} alt="" width={256} height={24} className='pt-10'/>
           </div>
 
@@ -196,7 +196,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (3).png"} alt="" width={232} height={72} className='pt-12'/>
+            <Image src={"/car (3).png"} alt="" width={220} height={68} className='pt-12'/>
             <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -225,7 +225,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (7).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/car (7).png"} alt="" width={220} height={68} className='pt-6'/>
             <Image src={"/Spesification (7).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (8).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/car (8).png"} alt="" width={220} height={68} className='pt-6'/>
             <Image src={"/Spesification (8).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
@@ -267,7 +267,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (9).png"} alt="" width={232} height={72} className='pt-9'/>
+            <Image src={"/car (9).png"} alt="" width={220} height={68} className='pt-9'/>
             <Image src={"/Spesification (9).png"} alt="" width={256} height={24} className='pt-10'/>
           </div>
 
@@ -288,7 +288,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (10).png"} alt="" width={232} height={72} className='pt-6'/>
+            <Image src={"/car (10).png"} alt="" width={220} height={68} className='pt-6'/>
             <Image src={"/Spesification (10).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
