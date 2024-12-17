@@ -2,7 +2,7 @@ import React from 'react'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import Image from 'next/image';
 
-const Jakarta = Plus_Jakarta_Sans({subsets:['latin']})
+const Jakarta = Plus_Jakarta_Sans({subsets:['latin']});
 const navbar = () => {
   return (
     <div className='w-full bg-white h-auto flex flex-col md:flex-row items-center justify-between p-4 md:p-8 border-b-2 border-b-[#e7eef6]'>

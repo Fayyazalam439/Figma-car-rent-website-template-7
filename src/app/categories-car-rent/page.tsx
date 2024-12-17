@@ -1,35 +1,24 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Home() {
+export default function categories() {
   return (
-    <div className='bg-[#F6F7F9]'>
+    <div>
+    <div className='w-full h-auto flex bg-[#F6F7F9]'>      
+      <div className="first hidden sm:flex w-[20%]">
+        <Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>
+    </div>
 
-      <div className='w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center pt-10'>
-      <Image src={'/Ads1.png'} alt='' width={640} height={360} className="max-w-full"/>
-      <Image src={'/Ads2.png'} alt='' width={640} height={360} className="max-w-full"/>
+    <div className="w-full h-auto sm:w-[80%] flex flex-col p-4 sm:p-6 gap-2">
+      <div className='w-full flex flex-col sm:flex-row items-center sm:justify-b'>
+        <Image src={"/Pick - Up.png"} alt="" width={486} height={136}/>
+        <Image src={"/Switch.png"} alt="" width={63} height={63}/>
+        <Image src={"/Drop - Off.png"} alt="" width={486} height={136}/>
       </div>
 
-      <div className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8 pt-7">
-        <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="max-w-full pl-6" />
-        <Image src={"/Switch.png"} alt="" width={100} height={100} className="max-w-full" />
-        <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className="max-w-full pr-6" />
-      </div>
+      <section className='w-full h-auto p-2 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
 
-     {/* 1st Section */}
-
-      <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
-        <div className='flex justify-between '>
-          <div>
-            <h1 className='text-[#90A3BF] text-lg sm:text-xm font-bold pl-5'>Popular Car</h1>
-          </div>
-
-          <div>
-            <h1 className='text-[#3563E9] text-lg sm:text-xm font-bold pr-5'>View All</h1>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-5">
 
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
@@ -117,19 +106,6 @@ export default function Home() {
           </div>
 
           </div>
-        </div>
-      </section>
-
-       {/* 2nd Section */}
-        <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
-
-        <div className='flex justify-between '>
-          <div>
-            <h1 className='text-[#90A3BF] text-lg sm:text-xm font-bold pl-5'>Recomendation Car</h1>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-5">
 
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
@@ -152,7 +128,6 @@ export default function Home() {
 
           </div>
 
-          
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
             <div>
@@ -174,7 +149,6 @@ export default function Home() {
 
           </div>
 
-          
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
             <div>
@@ -196,7 +170,6 @@ export default function Home() {
 
           </div>
 
-          
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
             <div>
@@ -217,60 +190,6 @@ export default function Home() {
           </div>
 
           </div>
-
-          </div>
-          
-          </section>
-
-        {/* 3rd section */}
-
-          <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-
-          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
-
-            <div>
-            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
-            All New Rush <Image src={"/Heart2.png"} alt="" width={24} height={24} /> 
-            </h1>
-            <p className='text-[#90A3BF]'>SUV</p>
-            </div>
-
-          <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (7).png"} alt="" width={248} height={100} className='pt-11'/>
-            <Image src={"/Spesification (7).png"} alt="" width={256} height={24} className='pt-11' />
-          </div>
-
-          <div className="w-full flex items-center justify-between pt-5">
-            <p className='text-[20px] font-bold'>$79.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
-            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
-          </div>
-
-          </div>
-
-          
-          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
-
-            <div>
-            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
-            CR  - V<Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
-            </h1>
-            <p className='text-[#90A3BF]'>SUV</p>
-            </div>
-
-          <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (8).png"} alt="" width={224} height={100} className='pt-11'/>
-            <Image src={"/Spesification (8).png"} alt="" width={256} height={24} className='pt-11' />
-          </div>
-
-          <div className="w-full flex items-center justify-between pt-5">
-            <p className='text-[20px] font-bold'>$98.00/ <span className="text-[#90A3BF] text-[14px]"> day</span></p>
-            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
-          </div>
-
-          </div>
-
           
           <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
 
@@ -291,46 +210,21 @@ export default function Home() {
             <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
           </div>
 
-          </div>
+          </div>                                                 
+        </div>        
+      </section>    
 
-          
-          <div className='bg-[#FFFFFF] w-full max-w-[304px] h-[388px] mx-auto rounded-md p-6'>
-            
-            <div>
-            <h1 className="w-full flex items-center justify-between font-bold text-[20px] ">
-            Nissan GT - R <Image src={"/Heart1.png"} alt="" width={24} height={24} /> 
-            </h1>
-            <p className='text-[#90A3BF]'>SUV</p>
-            </div>
-
-          <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (10).png"} alt="" width={264} height={108} className='pt-10'/>
-            <Image src={"/Spesification (10).png"} alt="" width={256} height={24} className='pt-10' />
-          </div>
-
-          <div className="w-full flex items-center justify-between pt-5">
-            <p className='text-[20px] font-bold'>$95.00/<span className="text-[#90A3BF] text-[14px]"> day</span></p>
-            <button className="bg-[#3563e9] p-2 text-white rounded-md w-28 ">Rent Now</button>
-          </div>
-
-          </div>
-          </div>
-     </section>
-
-      <section className="w-full text-center">
-      
-        <Link href={"/categories-car-rent"}>
-          <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5 ">
-            Show More Car
-          </button>
-        </Link>
-
-          <br /><br /><br/>
-        
-      </section>
+    <section className="w-full text-center">    
+      <Link href={"/categories-car-rent"}>
+        <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5 ">
+          Show More Car
+        </button>
+      </Link>
+        <br /><br />
+    </section>   
+    </div>
 
     </div>
+</div>
   );
 }
-
-
