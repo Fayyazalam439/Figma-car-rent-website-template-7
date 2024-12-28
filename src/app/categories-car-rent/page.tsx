@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function categories() {
   return (
-    <div>
+<div>
     <div className='w-full h-auto flex bg-[#F6F7F9]'>      
-      <div className="first hidden sm:flex w-[20%]">
+      <div className="first hidden sm:flex w-[360]">
         <Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>
-    </div>
+      </div>
 
     <div className="w-full h-auto sm:w-[80%] flex flex-col p-4 sm:p-6 gap-2">
       <div className='w-full flex flex-col sm:flex-row items-center sm:justify-b'>
@@ -215,7 +215,7 @@ export default function categories() {
       </section>    
 
     <section className="w-full text-center">    
-      <Link href={"/categories-car-rent"}>
+      <Link href={"/detail-car-rent"}>
         <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5 ">
           Show More Car
         </button>
