@@ -85,7 +85,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (2).png"} alt="" width={220} height={68} className='pt-14'/>
+            <Image src={"/Car (2).png"} alt="" width={220} height={68} className='pt-14'/>
             <Image src={"/Spesification (2).png"} alt="" width={256} height={24} className='pt-14' />
           </div>
 
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (4).png"} alt="" width={224} height={100} className='pt-11'/>
+            <Image src={"/Car (4).png"} alt="" width={224} height={100} className='pt-11'/>
             <Image src={"/Spesification (4).png"} alt="" width={256} height={24} className='pt-11' />
           </div>
 
@@ -163,7 +163,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (5).png"} alt="" width={248} height={100} className='pt-11'/>
+            <Image src={"/Car (5).png"} alt="" width={248} height={100} className='pt-11'/>
             <Image src={"/Spesification (5).png"} alt="" width={256} height={24} className='pt-11' />
           </div>
 
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (6).png"} alt="" width={224} height={100} className='pt-11'/>
+            <Image src={"/Car (6).png"} alt="" width={224} height={100} className='pt-11'/>
             <Image src={"/Spesification (6).png"} alt="" width={256} height={24} className='pt-11'/>
           </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (4).png"} alt="" width={224} height={100} className='pt-11'/>
+            <Image src={"/Car (4).png"} alt="" width={224} height={100} className='pt-11'/>
             <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-11' />
           </div>
 
@@ -238,7 +238,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (7).png"} alt="" width={248} height={100} className='pt-11'/>
+            <Image src={"/Car (7).png"} alt="" width={248} height={100} className='pt-11'/>
             <Image src={"/Spesification (7).png"} alt="" width={256} height={24} className='pt-11' />
           </div>
 
@@ -260,7 +260,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (8).png"} alt="" width={224} height={100} className='pt-11'/>
+            <Image src={"/Car (8).png"} alt="" width={224} height={100} className='pt-11'/>
             <Image src={"/Spesification (8).png"} alt="" width={256} height={24} className='pt-11' />
           </div>
 
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (9).png"} alt="" width={288} height={112} className='pt-11'/>
+            <Image src={"/Car (9).png"} alt="" width={288} height={112} className='pt-11'/>
             <Image src={"/Spesification (9).png"} alt="" width={256} height={24} className='pt-11'/>
           </div>
 
@@ -304,7 +304,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (10).png"} alt="" width={264} height={108} className='pt-10'/>
+            <Image src={"/Car (10).png"} alt="" width={264} height={108} className='pt-10'/>
             <Image src={"/Spesification (10).png"} alt="" width={256} height={24} className='pt-10' />
           </div>
 
