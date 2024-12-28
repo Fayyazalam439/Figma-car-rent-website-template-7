@@ -32,7 +32,7 @@ export default function carRent() {
         <div>
         <Image src={"/Reviews.png"} alt="" width={220} height={24}/>
         <br /><br />
-        <p className='text-lg'>NISMO has become the embodiment of Nissan's is an & outstanding performance, inspired by the most is belong unforgiving proving ground, the "race track".</p>
+        <p className='text-lg'>NISMO has become the embodiment of Nissan&apos;s is an &amp; outstanding performance, inspired by the most is belong unforgiving proving ground, the &quot;race track&quot;.</p>
         <br /><br />
         <Image src={"/Spesification-new.png"} alt='' width={444} height={72}/>
         <br /><br />
