@@ -107,7 +107,7 @@ export default function Home() {
             </div>
 
           <div className='w-full flex flex-col items-center justify-center gap-4'>
-            <Image src={"/car (3).png"} alt="" width={220} height={68} className='pt-14'/>
+            <Image src={"/Car (3).png"} alt="" width={220} height={68} className='pt-14'/>
             <Image src={"/Spesification (3).png"} alt="" width={256} height={24} className='pt-14' />
           </div>
 
