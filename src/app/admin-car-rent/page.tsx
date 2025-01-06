@@ -8,19 +8,19 @@ export default function admin() {
                     <Image src={'/AdminNav.png'} alt='' width={380} height={900} />
                 </div>
 
-                <div className="grid grid-cols-2 grid-rows-3 gap-7 p-7">
+                <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-3 gap-7 p-5">
 
-                    <div className="col-span-1 row-span-3 rounded-lg bg-[#FFFFFF] p-5">
+                    <div className="col-span-1 row-span-3 rounded-lg bg-[#FFFFFF] p-3 sm:p-5">
                         <h1 className="font-bold text-xl pt-3">Details Rental</h1><br />
                         <Image src={'/Maps.png'} alt='' width={450} height={350} className="h-[250px]" /> <br /><br />
 
-                        <div className="w-full flex items-center space-x-5">
-                            <Image src={'/Look.png'} alt='' width={132} height={72} />
+                        <div className="w-full flex items-start sm:items-center space-x-5">
+                            <div><Image src={'/Look.png'} alt='' width={132} height={72} /></div>
                             <div>
-                                <h1 className="font-bold text-[24px] w-full flex items-center space-x-14">Nissan GT - R <br />
-                                    <p className="text-[#3D5278] text-lg font-normal">#9761</p>
+                                <h1 className="font-bold text-lg sm:text-[24px] w-full flex items-center space-x-14">Nissan GT - R 
+                                    <p className="text-[#3D5278] text-sm sm:text-lg font-normal relative left-0 sm:left-20">#9761</p>
                                 </h1>
-                                <p className="text-[#3D5278] text-lg">Sport Car</p>
+                                <p className="text-[#3D5278] text-sm sm:text-lg">Sport Car</p>
                             </div>
                         </div><br />
 
@@ -42,11 +42,11 @@ export default function admin() {
 
                         <div className=" flex  justify-between">
                             <div>
-                                <h1 className="font-bold text-[24px]">Total Rental Price</h1>
-                                <p className="text-[#3D5278]">Overall price and includes rental discount</p>
+                                <h1 className="font-bold text-lg sm:text-[24px]">Total Rental Price</h1>
+                                <p className="text-[#3D5278] text-sm sm:text-lg">Overall price and includes rental discount</p>
                             </div>
-                            <div className="flex items-end">
-                                <h1 className="font-bold text-[38px]">$80.00</h1>
+                            <div className="flex items-center">
+                                <h1 className="font-bold text-2xl sm:text-[38px]">$80.00</h1>
                             </div>
                         </div>
                     </div>
@@ -57,87 +57,87 @@ export default function admin() {
 
                     <div className="col-span-1 row-span-2 rounded-lg bg-[#FFFFFF] p-5">
                         <div className="w-full flex justify-between items-center">
-                            <h1 className="font-bold text-[24px]">Recent Transaction</h1>
+                            <h1 className="font-bold text-lg sm:text-[24px]">Recent Transaction</h1>
                             <p className="text-[#3563E9] text-sm">View All</p>
                         </div>
                         <br />
 
-                        <div className="flex items-center space-x-5 border-b-2 pb-6">
+                        <div className="flex items-center space-x-1 sm:space-x-5 border-b-2 pb-6">
                             <div>
                                 <Image src={'/car.png'} alt='' width={132} height={70} />
                             </div>
 
                             <div>
-                                <h1 className="font-bold text-[20px]">Nissan GT - R</h1>
-                                <p className="text-[#90A3BF]">Sport Car</p>
+                                <h1 className="font-bold text-lg sm:text-[20px]">Nissan GT - R</h1>
+                                <p className="text-[#90A3BF] text-sm">Sport Car</p>
                             </div>
 
-                            <div className="relative left-20">
-                                <p className="text-[#90A3BF]">20 July</p>
-                                <h1 className="font-bold text-[20px] relative right-2">$80.00</h1>
+                            <div className="relative left-3 sm:left-20">
+                                <p className="text-[#90A3BF] text-sm">20 July</p>
+                                <h1 className="font-bold  text-[20px] relative right-2">$80.00</h1>
                             </div>
                         </div><br />
 
-                        <div className="flex items-center space-x-5 border-b-2 pb-6">
+                        <div className="flex items-center space-x-1 sm:space-x-5 border-b-2 pb-6">
                             <div>
                                 <Image src={'/car (1).png'} alt='' width={132} height={70} />
                             </div>
 
                             <div>
-                                <h1 className="font-bold text-[20px]">Koegnigsegg</h1>
-                                <p className="text-[#90A3BF]">Sport Car</p>
+                                <h1 className="font-bold text-lg sm:text-[20px]">Koegnige</h1>
+                                <p className="text-[#90A3BF] text-sm">Sport Car</p>
                             </div>
 
-                            <div className="relative left-20">
-                                <p className="text-[#90A3BF]">19 July</p>
+                            <div className="relative left-3 sm:left-20">
+                                <p className="text-[#90A3BF] text-sm">19 July</p>
                                 <h1 className="font-bold text-[20px] relative right-2">$99.00</h1>
                             </div>
                         </div><br />
 
-                        <div className="flex items-center space-x-5 border-b-2 pb-6">
+                        <div className="flex items-center space-x-1 sm:space-x-5 border-b-2 pb-6">
                             <div>
                                 <Image src={'/Car (2).png'} alt='' width={132} height={70} />
                             </div>
 
                             <div>
-                                <h1 className="font-bold text-[20px]">Rolls - Royce</h1>
-                                <p className="text-[#90A3BF]">Sport Car</p>
+                                <h1 className="font-bold text-lg sm:text-[20px]">Rolls - Royce</h1>
+                                <p className="text-[#90A3BF] text-sm">Sport Car</p>
                             </div>
 
-                            <div className="relative left-20">
-                                <p className="text-[#90A3BF]">18 July</p>
+                            <div className="relative left-3 sm:left-20">
+                                <p className="text-[#90A3BF] text-sm">18 July</p>
                                 <h1 className="font-bold text-[20px] relative right-2">$96.00</h1>
                             </div>
                         </div><br />
 
-                        <div className="flex items-center space-x-5 border-b-2 pb-6">
+                        <div className="flex items-center space-x-1 sm:space-x-5 border-b-2 pb-6">
                             <div>
                                 <Image src={'/Car (4).png'} alt='' width={132} height={70} />
                             </div>
 
                             <div>
-                                <h1 className="font-bold text-[20px]">Rolls - Royce</h1>
-                                <p className="text-[#90A3BF]">Sport Car</p>
+                                <h1 className="font-bold text-lg sm:text-[20px]">Rolls - Royce</h1>
+                                <p className="text-[#90A3BF] text-sm">Sport Car</p>
                             </div>
 
-                            <div className="relative left-20">
-                                <p className="text-[#90A3BF]">17 July</p>
+                            <div className="relative left-3 sm:left-20">
+                                <p className="text-[#90A3BF] text-sm">17 July</p>
                                 <h1 className="font-bold text-[20px] relative right-2">$81.00</h1>
                             </div>
                         </div><br />
 
-                        <div className="flex items-center space-x-5 border-b-2 pb-6">
+                        <div className="flex items-center space-x-1 sm:space-x-5 border-b-2 pb-6">
                             <div>
                                 <Image src={'/Car (5).png'} alt='' width={132} height={70} />
                             </div>
 
                             <div>
-                                <h1 className="font-bold text-[20px]">Rolls - Royce</h1>
-                                <p className="text-[#90A3BF]">Sport Car</p>
+                                <h1 className="font-bold text-lg sm:text-[20px]">Rolls - Royce</h1>
+                                <p className="text-[#90A3BF] text-sm">Sport Car</p>
                             </div>
 
-                            <div className="relative left-20">
-                                <p className="text-[#90A3BF]">17 July</p>
+                            <div className="relative left-3 sm:left-20">
+                                <p className="text-[#90A3BF] text-sm">17 July</p>
                                 <h1 className="font-bold text-[20px] relative right-2">$81.00</h1>
                             </div>
                         </div><br />

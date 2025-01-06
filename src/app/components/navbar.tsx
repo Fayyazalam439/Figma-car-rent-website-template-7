@@ -16,12 +16,16 @@ const navbar = () => {
             type="text" title="search" placeholder="Say something here"
             className='border-2 border-[#e7eef6] w-full md:w-[492px] h-[44px] rounded-full p-2 pl-10 pr-12'
           />
+
           <Image src={'/filter.png'} alt='' width={24} height={24} className='absolute top-1/2 right-3 transform -translate-y-1/2' />
         </div>
 
       </div>
-      <div className="icons mt-4 md:mt-0">
-        <Image src={'/Profil & Notification.png'} alt='' width={236} height={44} />
+      <div className="flex space-x-6 pt-3 sm:pt-0 ">
+        <Image src={'/Like.png'} alt='' width={44} height={44} />
+        <Image src={'/Notification.png'} alt='' width={44} height={44} />
+        <Image src={'/Settings.png'} alt='' width={44} height={44} />
+        <Image src={'/Image.png'} alt='' width={44} height={44} />
       </div>
     </div>
   );

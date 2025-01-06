@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <div className='bg-[#F6F7F9]'>
 
-      <div className='w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center pt-10'>
+      <div className='w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center pt-10 p-5'>
         <Image src={'/Ads1.png'} alt='' width={640} height={360} className="max-w-full" />
         <Image src={'/Ads2.png'} alt='' width={640} height={360} className="max-w-full" />
       </div>
 
-      <div className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8 pt-7">
-        <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="max-w-full pl-6" />
+      <div className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-0 sm:gap-8 pt-0 sm:pt-7">
+        <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="max-w-full p-5 sm:pl-6" />
         <Image src={"/Switch.png"} alt="" width={100} height={100} className="max-w-full" />
-        <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className="max-w-full pr-6" />
+        <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className="max-w-full p-5 sm:pl-6" />
       </div>
 
       {/* 1st Section */}
@@ -21,11 +21,11 @@ export default function Home() {
       <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
         <div className='flex justify-between '>
           <div>
-            <h1 className='text-[#90A3BF] text-sm sm:text-lg font-bold pl-5'>Popular Car</h1>
+            <h1 className='text-[#90A3BF] text-sm sm:text-lg font-bold pl-0 sm:pl-5'>Popular Car</h1>
           </div>
 
           <div>
-            <h1 className='text-[#3563E9] text-sm sm:text-lg font-bold pr-5'>View All</h1>
+            <Link href={"/categories-car-rent"}><h1 className='text-[#3563E9] text-sm sm:text-lg font-bold pr-0 sm:pr-5'>View All</h1></Link>
           </div>
         </div>
 
