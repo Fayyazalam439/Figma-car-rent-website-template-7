@@ -125,7 +125,7 @@ export default function Home() {
 
         <div className='flex justify-between '>
           <div>
-            <h1 className='text-[#90A3BF] text-lg sm:text-xm font-bold pl-5'>Recomendation Car</h1>
+            <h1 className='text-[#90A3BF] text-sm sm:text-xm font-bold pl-5'>Recomendation Car</h1>
           </div>
         </div>
 
@@ -224,7 +224,7 @@ export default function Home() {
 
       {/* 3rd section */}
 
-      <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
+      <section className='w-full h-auto p-8 flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4  sm:gap-8'>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
